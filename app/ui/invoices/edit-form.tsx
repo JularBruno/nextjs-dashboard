@@ -1,5 +1,11 @@
 'use client';
+// TODO Validations didnt do it because was working wrong and tutorial didnt help
+// You'll need to:
 
+// Add useActionState to your edit-form.tsx component.
+// Edit the updateInvoice action to handle validation errors from Zod.
+// Display the errors in your component, and add aria labels to improve accessibility.
+// Once you're ready, expand the code snippet below to see the solution:
 import { CustomerField, InvoiceForm } from '@/app/lib/definitions';
 import {
   CheckIcon,
